@@ -75,6 +75,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
     background-color: #fff;
     font-size: 24px;
     line-height: 105%;
@@ -87,6 +88,11 @@
     }
     &:active {
       filter: brightness(1);
+    }
+
+    div {
+      position: relative;
+      top: -2px;
     }
   }
 
