@@ -37,6 +37,7 @@
   margin-bottom: 10px;
   padding-left: 114px;
   font-size: 54px;
+  line-height: 95%;
   text-transform: uppercase;
   color: #fff;
 
@@ -46,6 +47,10 @@
     margin-bottom: 25px;
     padding-left: 0;
     text-align: center;
+
+    .sign {
+      display: none;
+    }
   }
 
   & > span {

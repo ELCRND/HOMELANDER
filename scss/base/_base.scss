@@ -20,6 +20,11 @@ body {
   position: relative;
 }
 
+.scroll-off {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
 .tooltip {
   padding: 12px 24px;
   display: flex;
