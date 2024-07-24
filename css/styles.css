@@ -1012,12 +1012,7 @@ body {
   background: #fff;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-}
-@media screen and (max-width: 768px) {
-  .roadmap__schedule li .schedule__list {
-    gap: 30px;
-  }
+  justify-content: space-between;
 }
 .roadmap__schedule li .schedule__list:has(.completed) {
   padding-left: 45px;
@@ -1204,15 +1199,15 @@ body {
 .buy__steps li span a:before {
   content: url("../public/img/buy/buy_strokes.png");
   position: absolute;
-  bottom: -4px;
+  bottom: -6px;
   left: 0;
   z-index: -1;
   opacity: 0.3;
+  translate: -5% 0;
 }
 @media screen and (max-width: 768px) {
   .buy__steps li span a:before {
     scale: 0.7;
-    bottom: -6px;
     translate: -18% 0;
   }
 }

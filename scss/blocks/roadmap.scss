@@ -194,11 +194,7 @@
       background: #fff;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-
-      @media screen and (max-width: 768px) {
-        gap: 30px;
-      }
+      justify-content: space-between;
 
       &:has(.completed) {
         padding-left: 45px;
